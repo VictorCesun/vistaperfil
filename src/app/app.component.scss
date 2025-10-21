@@ -1,0 +1,11 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1e1522 0%, #2b2230 100%);
+  color: #fff;
+}
+
+.main-area {
+  flex: 1;
+  padding: 20px;
+}
