@@ -1,0 +1,25 @@
+
+<body>
+    <button class="btn btn-dark d-lg-none m-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarOffcanvas"
+    style="background-color: var(--magenta-retro) !important;">
+        <span class="navbar-toggler-icon" style="filter: brightness(0) invert(1);"></span>
+    </button>
+
+    <div class="container-fluid">
+        <div class="row">
+           <nav id="sidebar" class="col-lg-2 col-md-3 d-none d-lg-block sidebar">
+                <app-sidebar></app-sidebar>
+            </nav>
+             <main class="col-lg-10 col-md-9 ms-sm-auto px-md-4 py-4">
+              <router-outlet/>
+            </main>
+
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarOffcanvas"
+    style="background-color: var(--purpura-profundo);">
+      <app-sidebar-movil></app-sidebar-movil>
+    </div>
+
+</body>

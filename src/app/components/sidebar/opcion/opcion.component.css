@@ -1,0 +1,10 @@
+.nav-link {
+            color: var(--gris-cosmico) !important;
+            border-left: 3px solid transparent;
+            margin-bottom: 5px;
+        }
+        .nav-link:hover, .nav-link.active {
+            color: var(--azul-electrico) !important;
+            border-left-color: var(--magenta-retro); /* Resaltar con Magenta Retro */
+            background-color: rgba(245, 105, 182, 0.1); /* Sombra suave con Magenta */
+        }

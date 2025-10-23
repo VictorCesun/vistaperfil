@@ -1,0 +1,22 @@
+
+
+
+
+
+<!-- User profile -->
+<app-profile></app-profile>
+
+<ul class="nav flex-column">
+  <app-opcion [isActive]="true"
+   [texto]="'Dashboard'"
+   [icon]="'fas fa-chart-line'"
+   [urlDestino]="'/home/dashboard'"></app-opcion>
+  <app-opcion [isActive]="false" [texto]="'Galeria'" [icon]="'fa-solid fa-images'" [urlDestino]="'/home/galeria'"></app-opcion>
+  <app-opcion [isActive]="false" [texto]="'Nueva Opcion'" [icon]="'fa-solid fa-bell'" [urlDestino]="'/home/galeria'"></app-opcion>
+</ul>
+
+<div class="p-3 mt-4">
+    <button class="btn btn-neon w-100">Cerrar Sesión</button>
+</div>
+
+
